@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "908503719143",
+    "project_id": "m-aid-app",
+    "storage_bucket": "m-aid-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908503719143:android:22c51891a9cb7161209642",
+        "android_client_info": {
+          "package_name": "com.stjohnambulance.m_aidapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "908503719143-24i7dncj61mc6jkeu784248ae0pagtkv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2VwpxBL2AJQnq6qBFajMWLUr2k_H4pjM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "908503719143-24i7dncj61mc6jkeu784248ae0pagtkv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

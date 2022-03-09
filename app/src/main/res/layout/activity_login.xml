@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".login">
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="20dp"
+        android:background="#F84538"
+        android:fontFamily="@font/gabriela"
+        android:text="M-Aid APPLICATION"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/gabriela"
+        android:text="Login Account"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+
+    <EditText
+        android:id="@+id/editE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="20dp"
+        android:background="#FFFFFF"
+        android:hint="Enter email"
+        android:textColorHint="@color/black"
+        android:padding="10dp"
+        android:fontFamily="@font/gabriela"
+        android:textSize="20sp"
+        android:drawableStart="@drawable/ic_stat_email"
+        android:drawableLeft="@drawable/ic_stat_email"
+        android:drawablePadding="5dp"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/editP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="20dp"
+        android:background="#FFFFFF"
+        android:hint="Password"
+        android:textColorHint="@color/black"
+        android:padding="10dp"
+        android:fontFamily="@font/gabriela"
+        android:textSize="20sp"
+        android:drawableStart="@drawable/ic_start_lock"
+        android:drawableLeft="@drawable/ic_start_lock"
+        android:drawablePadding="5dp"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/btnLog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Login"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="sans-serif"
+        android:text="New here? Create account"
+        android:textAlignment="center"
+        android:textColor="#6E0D06"
+        android:textSize="14sp" />
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_gravity="center"
+        android:visibility="invisible"/>
+
+</LinearLayout>
